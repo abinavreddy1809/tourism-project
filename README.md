@@ -76,10 +76,3 @@ If you want to push data files too, remove them from `.gitignore`.
 
 ---
 
-## Data Quality Fixes Applied
-
-1. **Data Leakage fixed** in UserAvgRating using Leave-One-Out (LOO)
-2. **Data Leakage fixed** in UserPct columns using LOO proportions
-3. **13 redundant columns** removed after joining all 9 tables
-4. **Rating 1 and 2 kept** - they are valid values, not outliers
-5. **CityName removed** - too many unique values (5545), causes overfitting
